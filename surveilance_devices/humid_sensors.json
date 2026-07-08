@@ -1,0 +1,44 @@
+[{	
+	"device_id": "hm0001",
+	"location_x": 13.0,
+	"location_y": 7.0,
+	"battery_charge": 100,
+	"marker_color": "aqua",
+	"humidity": 0.0
+},
+
+{
+	"device_id": "hm0002",
+	"location_x": 29.0,
+	"location_y": 44.0,
+	"battery_charge": 100,
+	"marker_color": "aqua",
+	"humidity": 0.0
+},
+
+{
+	"device_id": "hm0003",
+	"location_x": 29.0,
+	"location_y": 7.0,
+	"battery_charge": 100,
+	"marker_color": "aqua",
+	"humidity": 0.0
+},
+
+{
+	"device_id": "hm0004",
+	"location_x": 13.0,
+	"location_y": 44.0,
+	"battery_charge":100,
+	"marker_color": "aqua",
+	"humidity": 0.0
+},
+
+{
+	"device_id": "hm0005",
+	"location_x": 21.0,
+	"location_y": 31.0,
+	"battery_charge": 100,
+	"marker_color": "aqua",
+	"humidity": 0.0
+}]

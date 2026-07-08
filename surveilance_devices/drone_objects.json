@@ -1,0 +1,36 @@
+[{
+	"device_id": "dr0001",
+	"location_x": 22.0,
+	"location_y": 10.0,
+	"battery_charge": 100,
+	"marker_color": "chocolate",
+	"status": "observe"
+},
+
+{
+	"device_id": "dr0002",
+	"location_x": 20.0,
+	"location_y": 40.0,
+	"battery_charge": 100,
+	"marker_color": "lightcoral",
+	"status": "observe"
+},
+
+{
+	"device_id": "dr0003",
+	"location_x": 12.0,
+	"location_y": 30.0,
+	"battery_charge": 100,
+	"marker_color": "lime",
+	"status": "observe"
+},
+
+{
+	"device_id": "dr0004",
+	"location_x": 18.0,
+	"location_y": 18.0,
+	"battery_charge": 100,
+	"marker_color": "cornflowerblue",
+	"status": "observe"
+}
+]

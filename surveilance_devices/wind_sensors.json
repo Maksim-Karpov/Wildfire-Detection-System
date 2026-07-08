@@ -1,0 +1,44 @@
+[{	
+	"device_id": "wn0001",
+	"location_x": 12.0,
+	"location_y": 6.0,
+	"battery_charge": 100,
+	"marker_color": "ivory",
+	"wind_speed": 0.0
+},
+
+{
+	"device_id": "wn0002",
+	"location_x": 27.0,
+	"location_y": 43.0,
+	"battery_charge": 100,
+	"marker_color": "ivory",
+	"wind_speed": 0.0
+},
+
+{
+	"device_id": "wn0003",
+	"location_x": 27.5,
+	"location_y": 6.5,
+	"battery_charge": 100,
+	"marker_color": "ivory",
+	"wind_speed": 0.0
+},
+
+{
+	"device_id": "wn0004",
+	"location_x": 12.5,
+	"location_y": 43.5,
+	"battery_charge": 100,
+	"marker_color": "ivory",
+	"wind_speed": 0.0
+},
+
+{
+	"device_id": "wn0005",
+	"location_x": 20.5,
+	"location_y": 29.5,
+	"battery_charge": 100,
+	"marker_color": "ivory",
+	"wind_speed": 0.0
+}]

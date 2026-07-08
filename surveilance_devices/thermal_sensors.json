@@ -1,0 +1,44 @@
+[{	
+	"device_id": "th0001",
+	"location_x": 13.5,
+	"location_y": 7.5,
+	"battery_charge": 100,
+	"marker_color": "red",
+	"temperature": 0.0
+},
+
+{
+	"device_id": "th0002",
+	"location_x": 29.5,
+	"location_y": 44.5,
+	"battery_charge": 100,
+	"marker_color": "red",
+	"temperature": 0.0
+},
+
+{
+	"device_id": "th0003",
+	"location_x": 29.5,
+	"location_y": 7.5,
+	"battery_charge": 100,
+	"marker_color": "red",
+	"temperature": 0.0
+},
+
+{
+	"device_id": "th0004",
+	"location_x": 13.5,
+	"location_y": 44.5,
+	"battery_charge": 100,
+	"marker_color": "red",
+	"temperature": 0.0
+},
+
+{
+	"device_id": "th0005",
+	"location_x": 21.0,
+	"location_y": 30.0,
+	"battery_charge": 100,
+	"marker_color": "red",
+	"temperature": 0.0
+}]

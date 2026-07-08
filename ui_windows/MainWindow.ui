@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1652</width>
+    <height>933</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="mainexitbutton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>690</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="drone_table">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>60</y>
+      <width>431</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID устр-ва</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Coord. X</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Coord. Y</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Status</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Charge</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="therm_sens_table">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>391</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <column>
+     <property name="text">
+      <string>Device id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Coord. X</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Coord. Y</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Temperature</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Charge</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="threats_table">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>690</y>
+      <width>1121</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <column>
+     <property name="text">
+      <string>Threat id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Probability</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Left border X</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Right border X</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Lower border Y</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Upper border Y</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Readings(humid., temp., wind speed)</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="humid_sens_table">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>391</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <column>
+     <property name="text">
+      <string>Device id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Coord. X</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Coord. Y</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Humidity</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Charge</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="wind_sens_table">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>470</y>
+      <width>391</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <column>
+     <property name="text">
+      <string>Device id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Coord. X</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Coord. Y</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Wind km/h</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Charge</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>20</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Surveilance UAV device&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>381</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Meteorological sensors clusters&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="map_area" native="true">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>20</y>
+      <width>761</width>
+      <height>641</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="detections_table">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>310</y>
+      <width>431</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::FocusPolicy::StrongFocus</enum>
+    </property>
+    <column>
+     <property name="text">
+      <string>Detection id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Filepath</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="check_detections_btn">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>520</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Manual check</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>690</y>
+      <width>341</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="update_data_btn">
+       <property name="text">
+        <string>Update data</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QRadioButton" name="check_image_rad">
+       <property name="text">
+        <string>Check images</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QRadioButton" name="check_cluster_rad">
+       <property name="text">
+        <string>Update clusters data</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QRadioButton" name="update_all_data_rad">
+       <property name="text">
+        <string>Update tables and readings</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1652</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
