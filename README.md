@@ -1,5 +1,7 @@
-# Masters-Disseration-Program
+# Python QT6 UI app 
 Program, developed for Masters Dissertation project, dedicated to use of synthetic images in wildfire detection via CNN and easier monitoring
+
+*Test text
 
 ## Preparations
 ### 1) You need Python 3.13 or higher with pip
