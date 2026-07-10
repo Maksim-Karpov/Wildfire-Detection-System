@@ -121,7 +121,7 @@ class MainWindow(QtWidgets.QMainWindow):
         AdjustTableHeaders(self.detections_table)
 
         #++++++++Adding Initialazation Data++++++
-        #++++++++++++Addong monitoring devices+++++++++
+        #++++++++++++Adding monitoring devices+++++++++
         self.drones_dict, self.temperature_dict, self.humid_dict, self.wind_dict = CreateSamples()
         #print("DATA: ", self.drones_dict, self.temperature_dict, self.humid_dict, self.wind_dict)
         #++++++++++++++Loading starting data to the table++++++++++++++++
@@ -188,6 +188,7 @@ class MainWindow(QtWidgets.QMainWindow):
                     filename = "(" + curr_time + ")" + ".json"
                     print(filename)
                     folder = Path("reports")
+                    folder.mkdir(parents=True, exist_ok=True)
                     with open(folder / filename, "w", encoding='utf-8') as file:
                         json.dump(report, file)
 
