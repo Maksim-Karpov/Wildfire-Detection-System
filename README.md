@@ -48,11 +48,8 @@ This project was created as a proof of concept and does not function "out of the
     git clone https://github.com/Maksim-Karpov/Wildfire-Detection-System
 ### 3) Inside new folder install additional packages from "project_dependencies.txt" with
     pip install -r project_dependencies.txt
-### 3) Download 2 .keras neural networks from this Kaggle repository:
-### 3.1) Fire detection 
-        https://www.kaggle.com/models/maximkarpovivn/wildfire-image-detection-model
-### 3.2) Fire prediction 
-        https://www.kaggle.com/models/maximkarpovivn/wildfire-prediction-model
+### 3) Download 2 .keras neural networks from this GitHub repository (LFS):
+    https://github.com/Maksim-Karpov/Wildfire-Detection-Prediction-models
 ### Here is also the synthetically made training dataset made with blender (download optional):
     https://www.kaggle.com/datasets/maximkarpovivn/small-wildfire-synthetic-dataset/data
 ### 4) Create folders in the same path as all files (main.py, LoadAiModels.py, etc)
